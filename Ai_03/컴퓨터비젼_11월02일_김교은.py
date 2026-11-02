@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("../image/paper.jpg")
+img = cv2.imread("./image/paper.jpg")
 
 points = []
 preview = img.copy()

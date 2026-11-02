@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-src = cv2.imread("./images/solidWhiteCurve.jpg", cv2.IMREAD_COLOR)
+src = cv2.imread("./image/solidWhiteCurve.jpg", cv2.IMREAD_COLOR)
 hsv = cv2.cvtColor(src, cv2.COLOR_BGR2HSV)
 
 mask = cv2.inRange(hsv, (0, 0, 200), (255, 30, 255))   
@@ -21,3 +21,4 @@ cv2.imshow("src", src)
 cv2.imshow("result", result)
 cv2.waitKey()
 cv2.destroyAllWindows()
+
