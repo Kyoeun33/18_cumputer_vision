@@ -1,1 +1,5 @@
 .venv/
+
+# Model weights exceed GitHub's 100 MB file limit
+yolo/yolov3.weights
+yolo/yolov3u.pt
